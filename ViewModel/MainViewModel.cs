@@ -33,7 +33,7 @@ namespace BackgroundAgentSample.ViewModel
         {
             get
             {
-                return "dfwwpdev";
+                return "#30tolaunch";
             }
         }
 

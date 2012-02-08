@@ -103,7 +103,7 @@
 
     <phone:PhoneApplicationPage.ApplicationBar>
         <shell:ApplicationBar IsVisible="True"
-                              IsMenuEnabled="True">
+                              IsMenuEnabled="False">
             <shell:ApplicationBarIconButton IconUri="/icons/appbar.refresh.rest.png"
                                             Text="Refresh"
                                             x:Name="RefreshButton"

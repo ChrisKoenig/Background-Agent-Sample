@@ -52,7 +52,7 @@ namespace BackgroundTwitterFetcher
         {
             //TODO: Add code to perform your task in background
             var fetcher = new TwitterFetcher();
-            fetcher.GetTweets("wp7dev", (list) =>
+            fetcher.GetTweets("#30tolaunch", (list) =>
             {
                 var tweet = list.FirstOrDefault();
                 if (tweet != null)
